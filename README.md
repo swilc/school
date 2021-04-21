@@ -11,3 +11,5 @@
 [10 Pictures](https://swilc.github.io/school/pictures)
 
 [Visit the Repository](https://swilc.github.io/school/)
+
+[Tier List](https://swilc.github.io/school/tierlist)
