@@ -13,3 +13,5 @@
 [Visit the Repository](https://swilc.github.io/school/)
 
 [Tier List](https://swilc.github.io/school/tierlist)
+
+[9 Images in a Table](https://swilc.github.io/school/images)
