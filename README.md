@@ -17,3 +17,5 @@
 [9 Images in a Table](https://swilc.github.io/school/images)
 
 [Adventure](https://swilc.github.io/school/adventure)
+
+[My Hobby](https://swilc.github.io/school/hobby)
