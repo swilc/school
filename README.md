@@ -10,8 +10,6 @@
 
 [10 Pictures](https://swilc.github.io/school/pictures)
 
-[Visit the Repository](https://swilc.github.io/school/)
-
 [Tier List](https://swilc.github.io/school/tierlist)
 
 [9 Images in a Table](https://swilc.github.io/school/images)
@@ -19,3 +17,7 @@
 [Adventure](https://swilc.github.io/school/adventure)
 
 [My Hobby](https://swilc.github.io/school/hobby)
+
+[Homepage](https://swilc.github.io/school/homepage)
+
+[Story](https://swilc.github.io/school/story)
