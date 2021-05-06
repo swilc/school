@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
+    <!--Set the font-->
     <div class="font">
         <head>
+            <!--External style sheet hosted on my Github-->
             <link rel="stylesheet" type="text/css" href="https://swilc.github.io/styles/styles.css"/>
             <title>Story</title>
+            <!--The generic style sheet doesn't have this formatting-->
             <style>
-                .act1{
-                    background-color: rgb(199, 199, 199);
+                /*This was a good idea, I was originally doing it for each act*/
+                p{
                     padding: 10px;
                     margin-left: 25px;
                     margin-right: 25px;
+                    border: 3px solid rgb(31, 31, 31);
+                }
+                /*Each "act" has a slightly darker background color, making a gradient of sorts*/
+                .act1{
+                    background-color: rgb(199, 199, 199);
                 }
                 .act2{
                     background-color: rgb(165, 165, 165);
-                    padding: 10px;
-                    margin-left: 25px;
-                    margin-right: 25px;
                 }
                 .act3{
                     background-color: rgb(121, 121, 121);
-                    padding: 10px;
-                    margin-left: 25px;
-                    margin-right: 25px;
                 }
+                /*This is for the computer taking ot me and the Google search.*/
                 .computerfont{
                     font-family: 'Courier New', Courier, monospace;
                 }
@@ -31,10 +34,14 @@
 
         <body>
             <br>
+            <!--Title with the header class for the nice box around it,-->
             <h1 class="header">The time I studied for an English test.</h1>
             <br>
+            <!--First Paragraph-->
             <p class="act1">It was 1:00 am when I realized that there was a test the next day for school. Specifically English, my weakest subject. I sighed and rolled out of bed. I grabbed my phone and walked downstairs.</p>
-            <p class="act2">I logged into my computer and opened up Chrome. I searched for <i class="computerfont">Shakespeare Act II study guide</i> and started reading through the material. I started falling asleep, so I asked: 
+            <!--Second Paragraph-->
+            <p class="act2">I logged into my computer and opened up Chrome. I searched for <b class="computerfont">Shakespeare Act II study guide</b> and started reading through the material. I started falling asleep, so I asked: 
+                <!--New line for each speech segment, probably not the best but it works!-->
                 <br>
                 <i>Alexa, play some mu- </i>
                 <br>
@@ -47,6 +54,7 @@
                 <i>ALEXA, [speaking gibberish].</i>
                 <br>
                 <i class="computerfont"> Playing songs to keep you awake on Spotify.</i></p>
+            <!--Third Paragraph-->
             <p class="act3">
                 <i>Whatever,</i> I said. I was able to study in peac- 
                 <br>
@@ -58,3 +66,6 @@
             <!--Get it? Fiction because I _don't_ study for English *laugh* just kidding don't tell my teacher-->
         </body>
     </div>
+</html>
+
+<!--6th May 2021 2:28PM-->
