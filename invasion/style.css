@@ -1,0 +1,41 @@
+h1, h2, p{
+    color:white;
+    font-family:Helvetica
+}
+html{
+    background: #111111;
+}
+body{
+    background-color:rgb(31, 31, 31);
+    margin: 1%
+}
+div.header {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    max-width: 40%;
+}
+
+div.header > h1{
+    color:rgb(31, 31, 31);
+}
+span.content {
+    font-family:Helvetica
+}
+span.content > img{
+    border: 1px solid white;
+    height: 300px
+}
+div.flag{
+    height: 200px;
+    max-width: 60%;
+}
+#red{
+    background: #a41400;
+}
+#blue{
+    background: #0100bb;
+}
+#gradient{
+    background: linear-gradient(180deg, rgba(164,20,0,1) 35%, rgba(1,0,187,1) 100%);
+}
