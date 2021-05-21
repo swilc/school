@@ -45,6 +45,11 @@ table {
     color: white;
 }
 
+/*Styling for table headers*/
+th {
+    font-weight:bold;
+    font-size:16px;
+
 /*
  * This part is for the flag on the plan page. It's made up of a bunch of divs and takes advantage of the break.
  */
