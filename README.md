@@ -21,3 +21,7 @@
 [Homepage](https://swilc.github.io/school/homepage)
 
 [Story](https://swilc.github.io/school/story)
+
+[Conspiracy](https://swilc.github.io/school/conspiracy)
+
+[Invasion](https://swilc.github.io/school/invasion)
