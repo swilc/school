@@ -1,7 +1,8 @@
 /*Just gives most text the font and color formatting*/
 h1, h2, p{
     color:white;
-    font-family:Helvetica
+    font-family:Helvetica;
+    max-width: 60%
 }
 
 /*Sets a dark background for the entire page*/
