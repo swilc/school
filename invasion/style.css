@@ -43,6 +43,8 @@ span.content > img{
 /*Sets the font color for tables.*/
 table {
     color: white;
+    border: 3px dashed white;
+    padding: 5px;
 }
 
 /*Styling for table headers*/
