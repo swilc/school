@@ -41,9 +41,9 @@ span.content > img{
 }
 
 /*Sets the font color for tables.*/
-table, td, th {
+td, th {
     color: white;
-    border: 3px dashed white;
+    border: 1px solid white;
     padding: 5px;
 }
 
