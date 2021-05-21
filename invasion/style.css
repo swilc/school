@@ -37,6 +37,10 @@ span.content {
 /*All images in the content class will have a border and a fixed height.*/
 span.content > img{
     border: 1px solid white;
+}
+
+/*Set all images to 300px*/
+img {
     height: 300px
 }
 
