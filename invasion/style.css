@@ -1,14 +1,21 @@
+/*Just gives most text the font and color formatting*/
 h1, h2, p{
     color:white;
     font-family:Helvetica
 }
+
+/*Sets a dark background for the entire page*/
 html{
     background: #111111;
 }
+
+/*Sets a slightly lighter background with space around the edges.*/
 body{
     background-color:rgb(31, 31, 31);
     margin: 1%
 }
+
+/*The header box thing at the top of the page, only takes up 40% of the screen width and has a light background.*/
 div.header {
     display: block;
     padding: 8px;
@@ -16,26 +23,43 @@ div.header {
     max-width: 40%;
 }
 
+/*All 'h1' tags in the div class 'header' will have a darker font color.*/
 div.header > h1{
     color:rgb(31, 31, 31);
 }
+
+/*The main content in the page will have this class. For now it just changes the font family.*/
 span.content {
     font-family:Helvetica
 }
+
+/*All images in the content class will have a border and a fixed height.*/
 span.content > img{
     border: 1px solid white;
     height: 300px
 }
+
+/*
+ * This part is for the flag on the plan page. It's made up of a bunch of divs and takes advantage of the break.
+ */
+
+/*For all flag parts, set a fixed height and a 60% screen width. This class can be combined with IDs.*/
 div.flag{
     height: 200px;
     max-width: 60%;
 }
+
+/*Sets this part to red.*/
 #red{
     background: #a41400;
 }
+
+/*Sets this part to blue.*/
 #blue{
     background: #0100bb;
 }
+
+/*Sets this part to have a nice gradient.*/
 #gradient{
     background: linear-gradient(180deg, rgba(164,20,0,1) 35%, rgba(1,0,187,1) 100%);
 }
