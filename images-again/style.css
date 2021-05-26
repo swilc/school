@@ -1,0 +1,123 @@
+/*For now, there are some repeated things (like setting
+ * everything as a flexbox and centering it. This isn't
+ * the best option, but it works for now...
+ */
+
+/*Set the whole page to have a dark background*/
+html{
+    background: #111111;
+}
+
+/*Set the body to have a slightly lighter background*/
+body{
+    background-color:rgb(31, 31, 31);
+
+    /*Allow a small border so the HTML color still
+     * shows through.
+     */
+    margin: 1%;
+}
+
+p{
+    /*Set it to a flexbox*/
+    display:flex;
+
+    /*Center*/
+    justify-content: center;
+
+    /*Because the images are right below, add
+     * some padding to the bottom instead of <br>
+     */
+    padding-bottom: 20px;
+}
+
+/*White header block*/
+.header{
+    /*Set it to a block*/
+    display: block;
+
+    /*This centers everything*/
+    margin: auto;
+
+    /*Don't allow it to take up too much space*/
+    max-width: 40%;
+
+    padding: 8px;
+    background-color: #dddddd;
+    font-family:Helvetica;
+    text-align: center;
+}
+
+/*Format the h1 text in the header block*/
+.header > h1{
+    color:rgb(56, 56, 56);
+    font-family:Helvetica;
+}
+
+/*Set the text I'm using to be white Helvetica*/
+h2, p{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica;
+}
+
+/*Center everything in a flexbox*/
+.center{
+    display: flex;
+}
+
+/*Formatting for the images*/
+.images{
+    /*Set class as flexbox*/
+    display: flex;
+
+    /*Center items*/
+    align-items: center;
+
+    /*Wrap content*/
+    flex-wrap: wrap;
+
+    /*This centers the whole box.*/
+    margin: auto;
+
+    /*Set the direction to be a row*/
+    flex-direction: row;
+
+    /*Add space between horizonally*/
+    justify-content: space-between;
+
+    /*Add space between vertically*/
+    align-content: space-between;
+
+    /*Set the width to almost 6 images
+     * (all images are 200px by 200px)
+     * but make it so the 6th image has
+     * to wrap. This allows for space
+     * between the images.
+     */
+    width: 1199px;
+
+    /*Set the height to a little over 
+     * two images so there can still be
+     * space in between the images.
+     */
+    height: 430px;
+}
+
+/*All images in the image flexbox will be formatted here*/
+.images > img{
+    width: 200px;
+    height: 200px;
+}
+
+/*Footer text*/
+footer{
+    /*Make the whole footer a flexbox*/
+    display: flex;
+
+    /*Center everything*/
+    justify-content: center;
+    color: white;
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 10px;
+}
