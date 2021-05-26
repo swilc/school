@@ -1,3 +1,5 @@
+# All Assignments
+
 [Song Lyrics](https://swilc.github.io/school/web)
 
 [Different Variant of Song Lyrics](https://swilc.github.io/school/first)
