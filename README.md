@@ -29,3 +29,5 @@
 [Invasion](https://swilc.github.io/school/invasion)
 
 [Images.. again](https://swilc.github.io/school/images-again)
+
+## [View the repository](https://github.com/swilc/school)
