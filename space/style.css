@@ -1,0 +1,111 @@
+/**/
+html{
+    background: #111111;
+}
+
+/**/
+body.home{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5900407.jpg&f=1&nofb=1");
+}
+
+body{
+    margin: 1%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+}
+
+/**/
+body.sun{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FzQDSQ8o5WP8aBNFaQGydxG-1200-80.jpg&f=1&nofb=1");
+}
+
+/**/
+body.saturn{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Faa%2F2f%2F78%2Faa2f78effbe107f23b6e5a3aebd4d563.jpg");
+}
+
+/**/
+body.pluto{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.futuretimeline.net%2Fblog%2Fimages%2F207-pluto-large-1.jpg&f=1&nofb=1");
+}
+
+body.pluto:hover{
+    filter: blur(2px);
+    transition: 1s;
+}
+
+/**/
+.header {
+    display: block;
+    max-width: 20%;
+    padding: 8px;
+    margin: auto;
+    background-color: #111111;
+    text-align: center;
+    justify-content: center;
+}
+
+/**/
+.planet {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.planet-info{
+    padding: 50px;
+    background-color: #111111;
+    text-align: center;
+}
+
+/**/
+h1, h2, p, li, i, a{
+    font-family:Helvetica;
+    color:rgb(255, 255, 255);
+}
+
+.controlpanel{
+    display: flex;
+    justify-content: center;
+}
+
+.controlpanel-img{
+    width: 1100px;
+    height: 680px;
+    object-fit: cover;
+    object-position: 0 -20%;
+
+}
+
+.destinations{
+    display:flex;
+    position: absolute;
+    top: 175px;
+    left: 565px;
+    background-color: black;
+    width: 780px;
+    height: 320px;
+    align-content: center;
+    justify-content: center;
+}
+
+.destinations > h2{
+    padding-top: 10px;
+}
+
+.moon{
+    background-color: white;
+    width: 1100px;
+    height: 680px;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
