@@ -93,7 +93,8 @@ h1, h2, p, li, i, a{
 .destinations{
     display:flex;
 
-    /*Set the positioning to perfectly overlay on the control panel image*/
+    /*Set the positioning to perfectly overlay on the control panel image
+     *Sadly, this only looks good on a 1920x1080 (maybe all 16:9 displays?)*/
     position: absolute;
     top: 215px;
     left: 565px;
