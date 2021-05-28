@@ -30,4 +30,6 @@
 
 [Images.. again](https://swilc.github.io/school/images-again)
 
+[Space Control Panel](/space	)
+
 ## [View the repository](https://github.com/swilc/school)
