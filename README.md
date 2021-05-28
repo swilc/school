@@ -32,4 +32,6 @@
 
 [Space Control Panel](https://swilc.github.io/school/space)
 
+[What's important](https://swilc.github.io/school/important)
+
 ## [View the repository](https://github.com/swilc/school)
