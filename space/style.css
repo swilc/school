@@ -1,111 +1,180 @@
-/**/
+/*This is by far the most CSS heavy website yet!*/
+
+/*Set the HTML background color*/
 html{
     background: #111111;
 }
 
-/**/
-body.home{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5900407.jpg&f=1&nofb=1");
-}
-
+/*Set the body to have a small border around the outside with parallax effect*/
 body{
+    /*Small border*/
     margin: 1%;
+
+    /* This is for the parallax effect.
+     * Fix background image in place and don't allow it to repeat.
+     * This was mostly from W3schools.
+     */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*Make it so it extends. This just makes it so you can scroll and see the parallax effect.*/
     min-height: 1000px;
 }
 
-/**/
+/*Set the background image on the main page to space*/
+body.home{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5900407.jpg&f=1&nofb=1");
+}
+
+/*Set the background image on the Sun page to a picture of the Sun*/
 body.sun{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FzQDSQ8o5WP8aBNFaQGydxG-1200-80.jpg&f=1&nofb=1");
 }
 
-/**/
+/*Set the background image on the Saturn page to a picture of Saturn*/
 body.saturn{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Faa%2F2f%2F78%2Faa2f78effbe107f23b6e5a3aebd4d563.jpg");
 }
 
-/**/
+/*Set the background image on the Pluto page to a picture of Pluto*/
 body.pluto{
     background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.futuretimeline.net%2Fblog%2Fimages%2F207-pluto-large-1.jpg&f=1&nofb=1");
 }
 
-body.pluto:hover{
-    filter: blur(2px);
-    transition: 1s;
-}
-
-/**/
+/*Header block*/
 .header {
     display: block;
+
+    /*Don't let it take up too much space; give it some padding*/
     max-width: 20%;
     padding: 8px;
+
+    /*This centers it*/
     margin: auto;
+
+    /*Same color as HTML*/
     background-color: #111111;
+
+    /*Center text*/
     text-align: center;
+}
+
+/*Set all text used to be Helvetica white*/
+h1, h2, p, li, i, a{
+    font-family:Helvetica;
+    color:rgb(255, 255, 255);
+}
+
+/*    -MAIN CONTROL PANEL-    */
+
+/*Set the whole thing as a flexbox and center the content*/
+.controlpanel{
+    display: flex;
     justify-content: center;
 }
 
-/**/
+/*The super high quality stock photo of a control panel*/
+.controlpanel-img{
+    /*Fixed width*/
+    width: 1100px;
+
+    /*This is actually too short in height, but object-fit crops it*/
+    height: 680px;
+    object-fit: cover;
+
+    /*Move up the image so only the bottom is cropped*/
+    object-position: 0 -20%;
+
+}
+
+/*A flexbox in a flexbox is probably not the best, but it works!*/
+.destinations{
+    display:flex;
+
+    /*Set the positioning to perfectly overlay on the control panel image*/
+    position: absolute;
+    top: 215px;
+    left: 565px;
+
+    /*This is about the width of the "screen" on the control panel*/
+    width: 780px;
+    height: 320px;
+
+    /*Center everything*/
+    align-content: center;
+    justify-content: center;
+
+    /*Kind of janky way of centering it.. for some reason the above centering stuff stopped working.*/
+    padding-left: auto;
+
+    background-color: black;
+}
+
+/*The big text in the control panel destinations*/
+.destinations > h2{
+    padding-top: 10px;
+
+    /*Make sure it is the computer-ish font.*/
+    font-family: "Consolas"; !important
+}
+
+/*The moon embed on the main page needs fixed dimentions*/
+.moon{
+    width: 1100px;
+    height: 680px;
+
+}
+
+/*The box in the middle of the planet page*/
+
+/*This is the container part*/
 .planet {
+    /*FLEXBOX*/
     display: flex;
     padding: 8px;
+
+    /*Center everything horizontally and vertically*/
     justify-content: center;
     align-items: center;
+
+    /*Height that covers a good portion of the screen*/
     height: 800px;
 }
 
+/*Actual info in the middle of the planet pages. Not much here.*/
 .planet-info{
     padding: 50px;
     background-color: #111111;
     text-align: center;
 }
 
-/**/
-h1, h2, p, li, i, a{
-    font-family:Helvetica;
-    color:rgb(255, 255, 255);
-}
+/*Weird alien vision effect on the Pluto page. It blurs and shakes the whole page!*/
+body.pluto:hover{
+    filter: blur(2px);
+    transition: 4s;
 
-.controlpanel{
-    display: flex;
-    justify-content: center;
-}
+    /*This code is from W3 schools. I definitely couldn't figure this out myself.*/
 
-.controlpanel-img{
-    width: 1100px;
-    height: 680px;
-    object-fit: cover;
-    object-position: 0 -20%;
+          /* Start the shake animation and make the animation last for 0.5 seconds */
+          animation: shake 0.5s;
 
-}
+          /* When the animation is finished, start again */
+          animation-iteration-count: infinite;
+        }
 
-.destinations{
-    display:flex;
-    position: absolute;
-    top: 175px;
-    left: 565px;
-    background-color: black;
-    width: 780px;
-    height: 320px;
-    align-content: center;
-    justify-content: center;
-}
-
-.destinations > h2{
-    padding-top: 10px;
-}
-
-.moon{
-    background-color: white;
-    width: 1100px;
-    height: 680px;
-
-}
-
-.center{
-    display: flex;
-    justify-content: center;
+/*Keyframes for the shake effect*/
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
