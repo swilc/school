@@ -12,20 +12,31 @@
 		<!--Google Fonts-->
 		<!--Header font--><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 		<!--Main font--><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+
+		<style>
+			.searchbox{
+				height: 50px;
+			}
+			.header{
+				background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.coindesk.com%2Fwp-content%2Fuploads%2F2019%2F08%2Fbitcoin-shine-860x430.jpg&f=1&nofb=1");
+			}
+		</style>
 	</head>
 
 	<body>
+
+		<!--Header block-->
+		<div class="header">
+			<h1>(Very) Not Sketchy Store!</h1>
+		</div>
+
 		<br>
+
 		<!--Navigation-->
 		<nav>
 			<a href="index.html">Home</a>
 			<a href="store.html">Store</a>
 		</nav>
-
-		<!--Header block-->
-		<div class="header">
-			<h1>Store</h1>
-		</div>
 
 		<br>
 
@@ -39,6 +50,15 @@
 			<!--Links to the store-->
 			<p>Go ahead and <a href="store.html">check out the store!</a></p>
 		</center>
+
+		<br>
+
+		<!--I know that this is the worst way to do this, but the button (<a> tag) will inherit the styles from the nav.-->
+		<nav>
+			<input type="text" class="searchbox">
+			<a>Search</a>
+		</nav>
+
 		<br>
 	</body>
 </html>
