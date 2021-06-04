@@ -34,4 +34,6 @@
 
 [What's important](https://swilc.github.io/school/important)
 
+[Store page](https://swilc.github.io/school/store)
+
 ## [View the repository](https://github.com/swilc/school)
